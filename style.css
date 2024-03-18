@@ -128,7 +128,7 @@ main {
 
 footer {
   width: 100%;
-  height: 100px;
+  height: auto;
   text-align: center;
   line-height: 120px;
   background-color: darkgreen;
@@ -136,6 +136,7 @@ footer {
 
 .footer-text {
   width: 100%;
+  height:auto;
   color: #fff;
 }
 
@@ -146,6 +147,8 @@ footer {
 
     .nav-list-item {
       width: 100%;
+      display: flex;
+      justify-content: center;
     }
 
     .social {
@@ -158,7 +161,7 @@ footer {
 
     main {
       width: 100%;
-     display: block; 
+     display: block;
     }
 
     .bio-heading {
