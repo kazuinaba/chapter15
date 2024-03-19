@@ -149,13 +149,20 @@ footer {
 
 @media screen and (max-width: 768px) {
     .nav-list {
-      width: 100%;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .nav-div {
+      display:flex;
+      justify-content: center;
+      align-items: center;
     }
 
     .nav-list-item {
-      width: 100%;
-      display: flex;
-      justify-content: center;
+      /*display: flex;*/
+      /*justify-content: center;*/
     }
 
     .social {
