@@ -41,6 +41,9 @@ header {
   color: #fff;
 }
 
+.nav-list-item a {
+  color: #38b48b;
+}
 header .heading {
   font-size: 32px;
 }
@@ -56,6 +59,7 @@ header .heading a {
 .social i {
   display: inline-block;
   margin-left: 20px;
+  margin-bottom: 20px;
   color: black;
 }
 
@@ -76,6 +80,7 @@ main {
   color: black;
   background-color: #ecfcdf;
   padding: 10px 0 0 0;
+  width: 100%;
 }
 
 .bio-info {
@@ -165,9 +170,9 @@ footer {
       /*justify-content: center;*/
     }
 
-    .social {
+    /*.social {
       display: none;
-    }
+    }*/
 
     .main-visual-content {
       width: 100%;
@@ -179,7 +184,7 @@ footer {
     }
 
     .bio-heading {
-      width: 90%;
+      width: 100%;
     }
 
     .bio-box {
@@ -192,6 +197,7 @@ footer {
 
     .yoko-box {
       width: 100%;
+      padding: 0 0 0 0;
     }
 
     .message-text {
